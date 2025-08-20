@@ -41,3 +41,7 @@ mod 'saz-limits', '3.0.4'
 mod 'computecanada-jupyterhub',
     :git => 'https://github.com/ComputeCanada/puppet-jupyterhub.git',
     :ref => 'v6.8.2'
+
+mod 'puppet-module-openondemand',
+    :git => 'https://github.com/OSC/puppet-module-openondemand.git',
+    :ref => 'v7.1.1'
