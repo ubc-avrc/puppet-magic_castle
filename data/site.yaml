@@ -58,7 +58,6 @@ magic_castle::site::tags:
     - profile::jupyterhub::hub::keytab
     - profile::reverse_proxy
     - profile::metrics::caddy_exporter
-    - profile::openondemand
   efa:
     - profile::efa
   puppet:
