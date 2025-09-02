@@ -38,7 +38,7 @@ mod 'puppetlabs-transition', '0.1.3'
 mod 'treydock-globus', '9.0.0'
 mod 'saz-limits', '3.0.4'
 
-mod 'osc-openondemand', '7.1.1'
+#mod 'osc-openondemand', '7.1.1'
 mod 'saz-sudo', '9.0.0'
 mod 'puppetlabs-apache', '12.3.1'
 mod 'puppet-squid', '5.0.0'
@@ -48,3 +48,7 @@ mod 'puppetlabs-stdlib', '9.0.0'
 mod 'computecanada-jupyterhub',
     :git => 'https://github.com/ComputeCanada/puppet-jupyterhub.git',
     :ref => 'v6.8.2'
+
+mod 'osc-openondemand'
+    :git => 'https://github.com/ubc-avrc/puppet-module-openondemand.git',
+    :ref => 'fb397d57c87b4af24f20b0bf43fd5ef1c32f9640'
