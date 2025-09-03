@@ -49,6 +49,10 @@ mod 'computecanada-jupyterhub',
     :git => 'https://github.com/ComputeCanada/puppet-jupyterhub.git',
     :ref => 'v6.8.2'
 
+#mod 'osc-openondemand'
+#    :git => 'https://github.com/ubc-avrc/puppet-module-openondemand.git',
+#    :ref => '2e920ccc116289e34a343fb1303cb0689af6394d'
+	
 mod 'osc-openondemand'
-    :git => 'https://github.com/ubc-avrc/puppet-module-openondemand.git',
-    :ref => '2e920ccc116289e34a343fb1303cb0689af6394d'
+    :git => 'https://github.com/OSC/puppet-module-openondemand.git',
+    :ref => 'v7.1.1'
