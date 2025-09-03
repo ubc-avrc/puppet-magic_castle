@@ -51,4 +51,4 @@ mod 'computecanada-jupyterhub',
 
 mod 'osc-openondemand'
     :git => 'https://github.com/ubc-avrc/puppet-module-openondemand.git',
-    :ref => 'custom_port'
+    :ref => '2e920ccc116289e34a343fb1303cb0689af6394d'
